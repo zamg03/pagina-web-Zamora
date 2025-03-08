@@ -1,6 +1,13 @@
+html {background-color: #d9de9f;}
+
 h1 {
     background-color: brown;
     color:aliceblue;
+    margin: 8px;
+    font-family: -apple-system;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -12,30 +19,17 @@ a[href*="https://es.wikipedia.org/wiki/Eladio_Carri%C3%B3n"] {
     background-color: rgba(135, 206, 250, 0.556);
 }
 
-a[href^="acerca.html"] {
-    background-color: rgba(255, 192, 203, 0.688);
+.referencias {
+    text-align: center;
+
 }
 
-a[href^="inicio.html"] {
-    background-color: rgba(255, 192, 203, 0.688);
-}
-
-a[href^="inicio"] {
-    background-color: rgba(255, 192, 203, 0.688);
-}
-
-a[href^="contacto.html"] {
-    background-color: rgba(255, 192, 203, 0.688);
-}
-
-a[href^="contacto"] {
-    background-color: rgba(255, 192, 203, 0.688);
-}
 
 .resaltado {
     background-color: yellow;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 2px #9306ba; 
 }
 
 
@@ -45,25 +39,27 @@ main {
 }
 
 
-
-
 body {
     font-family: Arial;
     text-align: center;
 }
 
-
 nav {
     margin-top: 10px;
 }
 
+.referencias {
+    margin: 10px;
+}
+
 header {
-    background-color: #f0f0f0;
+    background-color: rgb(65, 221, 210);
     padding: 10px;
+    width: 100%;
 }
 
 footer {
-    background-color: #f0f0f0;
+    background-color: rgb(65, 221, 210);
     padding: 10px;
     width: 100%;
 }
